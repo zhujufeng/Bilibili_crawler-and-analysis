@@ -1,0 +1,34 @@
+# Local environment files
+.env
+.env.*
+!.env.example
+demo/.env
+demo/.env.*
+!demo/.env.example
+
+# Python cache
+__pycache__/
+*/__pycache__/
+*.py[cod]
+*.pyo
+
+# IDE and editor settings
+.idea/
+.vscode/
+
+# Runtime logs
+logs/
+*.log
+
+# Crawled raw data and local browser state
+data/
+browser_data/
+
+# Local temp and OS files
+.DS_Store
+Thumbs.db
+
+# Virtual environments
+.venv/
+venv/
+env/
